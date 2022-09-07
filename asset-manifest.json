@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/transland/static/css/main.cf27a478.css",
+    "main.js": "/transland/static/js/main.78e18870.js",
+    "static/js/787.5de3cf23.chunk.js": "/transland/static/js/787.5de3cf23.chunk.js",
+    "static/media/slide2.jpg": "/transland/static/media/slide2.e81f327bdcec0f91919c.jpg",
+    "static/media/slide1.jpg": "/transland/static/media/slide1.7bc3d47e1ab5cef18d69.jpg",
+    "static/media/mask-bg.jpg": "/transland/static/media/mask-bg.f846a15a18713d10e6ba.jpg",
+    "static/media/cost-bg.jpg": "/transland/static/media/cost-bg.5bb4bccc4be12e28119b.jpg",
+    "static/media/warehouse.jpg": "/transland/static/media/warehouse.77cd9ad729b8ee2eb844.jpg",
+    "static/media/cta-bg.jpg": "/transland/static/media/cta-bg.c5a55146482ca015c6db.jpg",
+    "static/media/page-banner.jpg": "/transland/static/media/page-banner.4d9670cb13dcc626fde3.jpg",
+    "static/media/dot_map.png": "/transland/static/media/dot_map.245f3f1f88cbb88e4c8f.png",
+    "static/media/b2.jpg": "/transland/static/media/b2.3e0281bcb75d0db38385.jpg",
+    "static/media/road.jpg": "/transland/static/media/road.70cac1dd70f3de5a8df4.jpg",
+    "static/media/b1.jpg": "/transland/static/media/b1.ea6cf4e776789b60ef30.jpg",
+    "static/media/b5.jpg": "/transland/static/media/b5.b41cc2c5e487feee3e58.jpg",
+    "static/media/about-air.jpg": "/transland/static/media/about-air.6e87d2951c60d9e14ef1.jpg",
+    "static/media/2.jpg": "/transland/static/media/2.5bb8827b9a663688656a.jpg",
+    "static/media/air.jpg": "/transland/static/media/air.a67b7c620034c470fac9.jpg",
+    "static/media/3.jpg": "/transland/static/media/3.32cdbde10dd577f74170.jpg",
+    "static/media/1.jpg": "/transland/static/media/1.8729a6e02351490b1bcb.jpg",
+    "static/media/rail.jpg": "/transland/static/media/rail.aae614149946d0316b13.jpg",
+    "static/media/4.jpg": "/transland/static/media/4.7352f490f28281c88dfe.jpg",
+    "static/media/ship.jpg": "/transland/static/media/ship.2238faef4408afa4fccd.jpg",
+    "static/media/1.png": "/transland/static/media/1.7a1f9688395f7f87d18c.png",
+    "static/media/2.png": "/transland/static/media/2.d47582204e94dd16d937.png",
+    "static/media/author_img.jpg": "/transland/static/media/author_img.e6ba23e55a911ef1a0c6.jpg",
+    "static/media/4.png": "/transland/static/media/4.0f559b8e8e18665712fe.png",
+    "index.html": "/transland/index.html",
+    "main.cf27a478.css.map": "/transland/static/css/main.cf27a478.css.map",
+    "main.78e18870.js.map": "/transland/static/js/main.78e18870.js.map",
+    "787.5de3cf23.chunk.js.map": "/transland/static/js/787.5de3cf23.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf27a478.css",
+    "static/js/main.78e18870.js"
+  ]
+}
