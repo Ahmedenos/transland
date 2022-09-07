@@ -1,0 +1,65 @@
+{
+    "review":[
+        {
+            "id":1,
+            "imge":"./images/author2.jpg",
+            "name":"Thomas Smith",
+            "job":"CEO & Engineer"
+        },
+        {
+            "id":2,
+            "imge":"./images/author3.jpg",
+            "name":"Ernest Smith",
+            "job":"Business Man"
+        }
+        ,{
+            "id":3,
+            "imge":"./images/author_img.jpg",
+            "name":"Salman Ahmed",
+            "job":"Project Manager"
+        }
+    ],
+    "news":[
+        {
+            "id":1,
+            "body":"Helping Companies in Their Green Transition",
+            "img":"./images/b1.jpg"
+        },
+        {
+            "id":2,
+            "body":"Tips to Lowering Freight Shipping Costs Transition",
+            "img":"./images/b2.jpg"
+        },
+        {
+            "id":3,
+            "body":"Drivers Deliver Much More Than Products ",
+            "img":"./images/b5.jpg"
+        }
+    ],
+    "contact":[
+        {
+            "id":1,
+            "icon":"fa-regular fa-envelope",
+            "social":"Email Address",
+            "info":"Sent mail asap anytime",
+            "contact1":"info@example.com",
+            "contact2":"jobs@example.com"
+        },
+        {
+            "id":2,
+            "icon":"fa-solid fa-phone-flip",
+            "social":"Phone Number",
+            "info":"call us asap anytime",
+            "contact1":"010 6717 55 92",
+            "contact2":"010 0046 94 26"
+        },
+        {
+            "id":3,
+            "icon":"fa-solid fa-location-dot",
+            "social":"Office Address",
+            "info":"Sent mail asap anytime",
+            "contact1":"B2, Miranda City",
+            "contact2":"New York, US"
+        }
+    ]
+}

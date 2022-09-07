@@ -1,0 +1,21 @@
+.inp input ,.inp textarea{
+    width: 100%;
+    padding: 20px;
+    background: #f8f8f8;
+    border: 0;
+    font-size: 16px;
+}
+.inp input:focus ,.inp textarea:focus{
+    border: 0;
+    outline: none;
+}
+.inp label{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.contact-form .head-iter{
+    text-align: center;
+}

@@ -1,0 +1,107 @@
+/* @import url(../main.scss); */
+.navScroll {
+  top: 0;
+  -webkit-transform: translateY(0px) !important;
+          transform: translateY(0px) !important;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-box-shadow: 0 13px 35px -12px rgba(35, 35, 35, 0.15);
+          box-shadow: 0 13px 35px -12px rgba(35, 35, 35, 0.15);
+}
+
+.transScroll {
+  -webkit-transform: translateY(-100px) !important;
+          transform: translateY(-100px) !important;
+}
+
+Nav a {
+  padding: 13px !important;
+  font-size: 17px !important;
+  color: #1f425d !important;
+  text-decoration: none;
+}
+
+Nav a:hover {
+  color: #4ab9cf !important;
+}
+
+.dropdown-menu {
+  top: 128% !important;
+  width: 200px;
+  border-radius: 0;
+  background: #4ab9cf;
+  color: #fff !important;
+}
+
+.dropdown-menu a {
+  color: #fff !important;
+}
+
+.dropdown-menu a:hover {
+  background: transparent;
+  color: #1f425d !important;
+}
+
+.icon-search {
+  opacity: .5;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-nav-scroll {
+    max-height: -webkit-fit-content !important;
+    max-height: -moz-fit-content !important;
+    max-height: fit-content !important;
+    background: #4ab9cf;
+    border-radius: 8px;
+  }
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+  .navbar-toggler:focus {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+  .dropdown-menu {
+    background: #1f425d;
+    width: 95%;
+    margin: auto;
+    border-radius: 8px;
+  }
+  .dropdown-menu a:hover {
+    color: #4ab9cf !important;
+  }
+  .nav-link {
+    color: #fff !important;
+  }
+  .nav-link:hover {
+    color: #1f425d !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .navbar-brand {
+    width: 65%;
+  }
+  .navbar-brand img {
+    max-width: 98%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .navbar-brand {
+    width: 65%;
+  }
+  .navbar-brand img {
+    max-width: 98%;
+  }
+  .navbar-toggler-icon {
+    width: 21px;
+  }
+  .navbar-brand {
+    width: 50%;
+    margin-right: 0 !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */

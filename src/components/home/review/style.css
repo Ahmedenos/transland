@@ -1,0 +1,52 @@
+.review-section{
+    background: #F7F7F7;
+}
+.contain-div{
+    background: #fff;
+    box-shadow: 1px 1px 3px #ccc;
+    padding: 20px;
+    text-align: center;
+    transition: all .3s;
+    margin: 20px;
+    /* width: 90%; */
+}
+@media screen and (max-width:568px){
+    .contain-div{
+        width: 90% !important;
+    }
+}
+.contain-div:hover{
+    box-shadow: 1px 1px 17px #ccc;
+}
+.contain-div h2{
+    font-weight: 700;
+    color: var(--second-color);
+    font-size: 27px;
+    padding: 20px;
+}
+.contain-div i{
+    font-size: 20px;
+    color: var(--main-color);
+}
+.contain-div p{
+    margin: 20px 0;
+}
+.star i{
+    color: var(--third-color);
+    font-size: 18px;
+    margin: 0 5px;
+}
+.testm-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #f8f8f8;
+    box-shadow: 0px 10px 35px 0px rgba(38, 42, 76, 0.1);
+    margin: 0 auto;
+    margin-top: 0px;
+    display: inline-block !important;
+    margin-top: -50px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}

@@ -1,0 +1,13 @@
+.footer-section{
+    background: var(--second-color);
+}
+footer a i:hover ,.links p a:hover{
+    color: var(--third-color) !important;
+}
+.copy-right{
+    background: var(--third-color);
+    color: var(--second-color) !important;
+}
+.p-footer , .text-reset{
+    font-size: 16px;
+}

@@ -1,0 +1,49 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #666;
+  scroll-behavior: smooth;
+  /* background: #4ab9cf !important; */
+  /* height: 3000px; */
+}
+img{
+  max-width: 100%;
+}
+:root{
+  --main-color:#4ab9cf;
+  --second-color:#1f425d ;
+  --third-color:#fd7062;
+  --section-padding: 100px
+}
+.section-p{
+  padding: var(--section-padding);
+}
+.my-btn {
+  margin-right: 20px !important;
+  border: none;
+  border-radius: 0;
+  background: #4ab9cf !important;
+  color: #fff;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  font-weight: bold;
+}
+
+.my-btn i {
+  padding: 4px;
+}
+
+.my-btn:hover {
+  background: #1f425d !important;
+  color: #fff;
+}
+
+/* :export {
+  mainColor: #4ab9cf;
+  altColor: #1f425d;
+  mainTrans: all 0.4s;
+  .my-btn :.my-btn
+} */
+/*# sourceMappingURL=main.css.map */

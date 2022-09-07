@@ -1,0 +1,86 @@
+.contact-img{
+    background-image: url("../../assets/page-banner.jpg");
+    background-position: center;
+    text-align: center;
+    position: relative;
+    padding: 120px 0;
+    overflow: hidden;
+}
+.contact-img h1{
+    padding: 80px;
+    color: #fff;
+    font-size: 75px;
+}
+.contact-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--second-color);
+    opacity: .9;
+    top: 0;
+    left: 0;
+}
+.seconed-section-contact{
+    background: #fff;
+}
+.contact-body{
+    background: #f8f8f8;
+    padding: 40px;
+    transition: all .4s;
+}
+.contact-body:hover{
+    background: var(--third-color);
+    cursor: pointer;
+}
+.contact-body:hover .email h4 ,.contact-body:hover .email p ,.contact-body:hover .phones-inner h3{
+    color: #fff;
+}
+.contact-body:hover .contact-icon{
+    background: var(--second-color);
+}
+.contact-body:hover .contact-icon a i{
+    color: #fff;
+}
+.contact-icon{
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    line-height: 70px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.contact-icon a i{
+    color: var(--second-color);
+}
+.email-h4{
+    font-size: 22px;
+    color: var(--second-color);
+    font-weight: 700;
+}
+.email-p{
+    font-size: 15px;
+    color: var(--second-color);
+    font-weight: 500;
+}
+.my-phones{
+    justify-content: space-around;
+}
+.phones-inner h3{
+    font-size: 16px;
+}
+.arrow-icons{
+    width: 50px;
+    height: 50px;
+    font-size: 14px;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    float: right;
+    overflow: hidden;
+    margin-left: 20px;
+}

@@ -1,0 +1,107 @@
+.quote-section{
+    background-image: url(../../../assets/cost-bg.jpg);
+    background-position: center;
+
+}
+.over-lay{
+    background-color: rgba(31, 66, 93, 0.65);
+
+}
+.quote-section .main-head{
+    z-index: 100;
+    -webkit-text-stroke-color: #fff;
+}
+.quote-section .head-desc{
+    color: #fff;
+}
+.quote-p{
+    color: #fff;
+    font-size: 17px;
+}
+.quote-icons{
+    color: #fff;
+}
+.quote-icons i{
+    font-size: 40px;
+    padding: 20px 0;
+}
+.quote-icons p{
+    font-size: 22px;
+    font-weight: 600;
+}
+.form-body{
+    background: #fff;
+    padding:50px 30px;
+}
+.form-body h1{
+    font-size: 22px;
+    color: var(--second-color);
+    margin-bottom: 25px;
+}
+.form-control,.form-select{
+    width: 40%;
+    display: inline-block;;
+    margin:8px 15px;
+    border-radius: 0 !important;
+    font-size: 15px;
+}
+
+.form-select{
+    color: #777;
+}
+.form-control:focus ,.form-select:focus{
+    border: none !important;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+.sm-inp .form-control{
+    width: 18%;
+    font-size: 15px;
+}
+.check-btn .mb-3{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.check-btn .mb-3 .form-check{
+    margin:0 18px;
+    width: 16%;
+}
+.form-check-label{
+    font-size: 16px;
+    color: #777;
+}
+option{
+    font-size: 15px;
+}
+.submit-btn{
+    width: 100%;
+    padding: 15px;
+    background: var(--second-color);
+    outline: none;
+    border: none;
+    border-radius: 0;
+    transition: all .3s;
+}
+.submit-btn:hover{
+    background: var(--main-color);
+}
+.quote-row{
+    padding: 75px 0 !important;
+}
+@media screen and (max-width:768px){
+    .form-control,.form-select{
+        width: 90%;
+    }
+    .sm-inp .form-control{
+        width: 40%;
+    }
+}
+@media screen and (max-width:568px){
+    .sm-inp .form-control{
+        width: 80%;
+    }
+    .check-btn .mb-3 .form-check{
+        width: 40%;
+    }
+}
